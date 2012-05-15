@@ -1,0 +1,39 @@
+.spnsr-wrapper {
+	position: relative;
+	height: 35px;
+	background-color: #82827f;
+	color: #fff;
+	white-space: nowrap;
+	margin: 0 0 15px 0;
+}
+.spnsr-title,
+.spnsr-logo,
+.spnsr-text {
+	height: 35px;
+	font: 14px/36px "Myriad Pro", Tahoma;
+}
+.spnsr-title {
+	position: absolute;
+	padding-right:18px;
+	width: 142px;
+	background: url(../img/spnsr-title-bg.png) right center no-repeat;
+	color:#6f6f6f;
+	text-align: center;
+}
+.spnsr-logo {
+	position: absolute;
+	left: 160px;
+	width: 180px;
+	background: url(../img/spnsr-logo.png) center center no-repeat;
+	text-indent: -9999px;
+}
+.spnsr-text {
+	margin-left: 360px;
+	padding-right: 25%;
+	background: url(../img/_spnsr-text-bg.jpg) transparent center center no-repeat;
+	text-align: center;
+}
+.spnsr-text strong {
+	color: #c7d419;
+	font-weight: normal;
+}
